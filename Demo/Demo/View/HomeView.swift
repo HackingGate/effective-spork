@@ -15,7 +15,7 @@ struct HomeView: View {
             VStack {
                 if viewModel.Items.count > 0 {
                     List {
-                        ForEach(viewModel.Items, id: \.name) {
+                        ForEach(viewModel.Items) {
                             Text($0.name)
                         }
                     }
