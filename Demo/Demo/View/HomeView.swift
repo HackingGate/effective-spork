@@ -13,9 +13,9 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack {
-                if viewModel.Items.count > 0 {
+                if viewModel.dummyJSONModel.items.count > 0 {
                     List {
-                        ForEach(viewModel.Items) {
+                        ForEach(viewModel.dummyJSONModel.items, id: \.name) {
                             Text($0.name)
                         }
                     }

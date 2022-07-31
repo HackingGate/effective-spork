@@ -32,5 +32,10 @@ class DemoTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testGET() async {
+        let items: DummyJSONModel = try! await Network.shared.GET(endpoint: .items)
+        XCTAssertEqual(items.items.count, 3)
+    }
 
 }

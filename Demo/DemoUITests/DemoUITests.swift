@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import Demo
 
 class DemoUITests: XCTestCase {
 
@@ -28,6 +29,8 @@ class DemoUITests: XCTestCase {
         app.launch()
 
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        XCTAssertEqual(app.label, "Demo")
     }
 
     func testLaunchPerformance() throws {

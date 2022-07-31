@@ -7,7 +7,6 @@
 
 import Foundation
 
-struct Item: Identifiable {
-    let id = UUID()
+struct Item: Codable {
     let name: String
 }
