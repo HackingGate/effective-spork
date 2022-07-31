@@ -9,4 +9,6 @@ import Foundation
 
 struct Item: Codable {
     let name: String
+    let price: Int
+    let keywords: [String]
 }
