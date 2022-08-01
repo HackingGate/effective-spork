@@ -31,6 +31,12 @@ class DemoUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
         XCTAssertEqual(app.label, "Demo")
+        
+        print(app.buttons)
+        app.buttons.firstMatch.tap()
+        
+        let priceText = app.staticTexts["Price"]
+        XCTAssert(priceText.exists)
     }
 
     func testLaunchPerformance() throws {
