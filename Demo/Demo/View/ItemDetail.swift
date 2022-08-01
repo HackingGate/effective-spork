@@ -12,7 +12,7 @@ struct ItemDetail: View {
 
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Price")
+            Text("price-text")
                 .font(.system(size: 12))
                 .fontWeight(.light)
             Text("$\(item.price)")
@@ -20,7 +20,7 @@ struct ItemDetail: View {
                 .fontWeight(.bold)
             Spacer()
                 .frame(height: 30)
-            Text("Keywords")
+            Text("keywords-text")
                 .font(.system(size: 12))
                 .fontWeight(.light)
             ForEach(item.keywords, id: \.self) {

@@ -20,10 +20,10 @@ struct HomeView: View {
                         }
                     }
                 } else {
-                    Text("Loading...")
+                    Text("loading-text")
                 }
             }
-            .navigationBarTitle("Demo", displayMode: .inline)
+            .navigationBarTitle("app-title", displayMode: .inline)
         }
     }
 }

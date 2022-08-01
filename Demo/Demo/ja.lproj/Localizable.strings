@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Demo
+
+  Created by H G on 2022/08/01.
+  
+*/
+
+"app-title" = "デモ";
+"loading-text" = "ローディング中";
+"price-text" = "価格";
+"keywords-text" = "キーワード";
