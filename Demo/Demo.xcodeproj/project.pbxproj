@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C7431B9D2897FB2B008C77DF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7431B9F2897FB2B008C77DF /* Localizable.strings */; };
+		C7431BA22897FEFF008C77DF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C7431BA12897FEFF008C77DF /* README.md */; };
 		C750B41E28958FC400D05E59 /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C750B41D28958FC400D05E59 /* DemoApp.swift */; };
 		C750B42028958FC400D05E59 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C750B41F28958FC400D05E59 /* HomeView.swift */; };
 		C750B42228958FC600D05E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C750B42128958FC600D05E59 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		C7431B9E2897FB2B008C77DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C7431BA02897FB2D008C77DF /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C7431BA12897FEFF008C77DF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C750B41A28958FC400D05E59 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C750B41D28958FC400D05E59 /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
 		C750B41F28958FC400D05E59 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		C750B41128958FC400D05E59 = {
 			isa = PBXGroup;
 			children = (
+				C7431BA12897FEFF008C77DF /* README.md */,
 				C750B41C28958FC400D05E59 /* Demo */,
 				C750B42D28958FC600D05E59 /* DemoTests */,
 				C750B43728958FC600D05E59 /* DemoUITests */,
@@ -305,6 +308,7 @@
 			files = (
 				C750B448289592BC00D05E59 /* Launch Screen.storyboard in Resources */,
 				C7431B9D2897FB2B008C77DF /* Localizable.strings in Resources */,
+				C7431BA22897FEFF008C77DF /* README.md in Resources */,
 				C750B42528958FC600D05E59 /* Preview Assets.xcassets in Resources */,
 				C750B42228958FC600D05E59 /* Assets.xcassets in Resources */,
 			);
