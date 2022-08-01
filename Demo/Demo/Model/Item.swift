@@ -12,3 +12,7 @@ struct Item: Codable {
     let price: Int
     let keywords: [String]
 }
+
+#if DEBUG
+let testItem = Item(name: "First Item", price: 100, keywords: ["red", "versatile", "inexpensive"])
+#endif

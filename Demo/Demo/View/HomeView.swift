@@ -16,7 +16,7 @@ struct HomeView: View {
                 if viewModel.dummyJSONModel.items.count > 0 {
                     List {
                         ForEach(viewModel.dummyJSONModel.items, id: \.name) {
-                            Text($0.name)
+                            ItemCell(item: $0)
                         }
                     }
                 } else {
@@ -28,7 +28,7 @@ struct HomeView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
     }

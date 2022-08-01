@@ -21,6 +21,8 @@
 		C750B4562895A1B300D05E59 /* DummyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C750B4552895A1B300D05E59 /* DummyJSON.swift */; };
 		C750B4582895A64300D05E59 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C750B4572895A64300D05E59 /* Endpoint.swift */; };
 		C750B45B2896F43400D05E59 /* DummyJSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C750B45A2896F43400D05E59 /* DummyJSONModel.swift */; };
+		C750B45D289700C500D05E59 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C750B45C289700C500D05E59 /* ItemCell.swift */; };
+		C750B45F2897038200D05E59 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C750B45E2897038200D05E59 /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		C750B4552895A1B300D05E59 /* DummyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyJSON.swift; sourceTree = "<group>"; };
 		C750B4572895A64300D05E59 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		C750B45A2896F43400D05E59 /* DummyJSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyJSONModel.swift; sourceTree = "<group>"; };
+		C750B45C289700C500D05E59 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		C750B45E2897038200D05E59 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				C750B41F28958FC400D05E59 /* HomeView.swift */,
+				C750B45C289700C500D05E59 /* ItemCell.swift */,
+				C750B45E2897038200D05E59 /* ItemDetail.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -322,6 +328,8 @@
 			files = (
 				C750B4582895A64300D05E59 /* Endpoint.swift in Sources */,
 				C750B4562895A1B300D05E59 /* DummyJSON.swift in Sources */,
+				C750B45D289700C500D05E59 /* ItemCell.swift in Sources */,
+				C750B45F2897038200D05E59 /* ItemDetail.swift in Sources */,
 				C750B4542895A13D00D05E59 /* Network.swift in Sources */,
 				C750B45128959E2100D05E59 /* Item.swift in Sources */,
 				C750B45B2896F43400D05E59 /* DummyJSONModel.swift in Sources */,
